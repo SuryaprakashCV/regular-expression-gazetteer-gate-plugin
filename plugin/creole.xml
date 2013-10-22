@@ -1,8 +1,8 @@
-<CREOLE-DIRECTORY ID="com.sf.textlytics.gate.RegexMatcher" VERSION="1.0">  
+<CREOLE-DIRECTORY ID="com.moonraft.textlytics.gate.RegexMatcher" VERSION="1.0">  
 <CREOLE>
    <RESOURCE>
 	<JAR SCAN="true">RegexMatcher.jar</JAR>
-	<CLASS>com.sf.textlytics.gate.RegexGazetteer</CLASS>
+	<CLASS>com.moonraft.textlytics.gate.RegexGazetteer</CLASS>
 	<PARAMETER NAME="document" RUNTIME="true">gate.Document</PARAMETER>
 	<PARAMETER NAME="inputASName" RUNTIME="true" OPTIONAL="false">java.lang.String</PARAMETER>
 	<PARAMETER NAME="outputASName" RUNTIME="true" OPTIONAL="false">java.lang.String</PARAMETER>
