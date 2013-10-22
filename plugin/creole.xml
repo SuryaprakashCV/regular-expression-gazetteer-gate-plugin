@@ -1,0 +1,14 @@
+<CREOLE-DIRECTORY ID="com.sf.textlytics.gate.RegexMatcher" VERSION="1.0">  
+<CREOLE>
+   <RESOURCE>
+	<JAR SCAN="true">RegexMatcher.jar</JAR>
+	<CLASS>com.sf.textlytics.gate.RegexGazetteer</CLASS>
+	<PARAMETER NAME="document" RUNTIME="true">gate.Document</PARAMETER>
+	<PARAMETER NAME="inputASName" RUNTIME="true" OPTIONAL="false">java.lang.String</PARAMETER>
+	<PARAMETER NAME="outputASName" RUNTIME="true" OPTIONAL="false">java.lang.String</PARAMETER>
+	<PARAMETER NAME="gazetteerFeatureSeparator" RUNTIME="false" OPTIONAL="true">java.lang.String</PARAMETER>
+	<PARAMETER NAME="annotationType" RUNTIME="true" OPTIONAL="false">java.lang.String</PARAMETER>
+	<PARAMETER NAME="model" RUNTIME="false" OPTIONAL="false" COMMENT="This URL must point to the model directory, and should end with a slash."  DEFAULT="./Regex.lst">java.net.URL</PARAMETER>
+   </RESOURCE>
+</CREOLE>
+</CREOLE-DIRECTORY>
