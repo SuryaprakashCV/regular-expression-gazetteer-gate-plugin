@@ -10,4 +10,4 @@
 
   After starting gate, take plugin window and point to plugin folder
   Provide your regex file
-  Provide Spliter Token, Regex<spliterToken>Attribures
+  Provide Splitter Token, Regex<splitterToken>Attributes
