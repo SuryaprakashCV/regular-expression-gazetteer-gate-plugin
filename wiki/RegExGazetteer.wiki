@@ -10,7 +10,7 @@
 
   After starting gate, take plugin window and point to plugin folder
   Provide your regex file
-  Provide Splitter Token
+  Provide Splitter Token <br>
   eg: (#)[A-Za-z0-9_-]+&&type=hashtag (splitterToken = "&&")
          
       
