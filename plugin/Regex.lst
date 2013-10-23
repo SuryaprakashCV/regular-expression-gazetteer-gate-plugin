@@ -1,0 +1,9 @@
+((https?|ftp|gopher|telnet|file|notes|ms-help):((//)|(\\\\))+[\w\d:#@%/;$()~_?\+-=\\\.&]*[\w\d]+)&&type=url
+(@)[A-Za-z0-9_-]+&&type=username
+(#)[A-Za-z0-9_-]+&&type=hashtag
+(\\x)[A-Za-z0-9]+&&type=encoding
+(---)+&&type=encoding
+(___)+&&type=encoding
+(didn\’t)&&type=negation
+(doesn\’t)&&type=negation
+(don\’t)&&type=negation
